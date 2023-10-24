@@ -7,5 +7,7 @@
 #three{
     width: 100%;
     height: auto;
-    background-color: black;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0.5) 100%),url(/src/bg.jpg);
+    object-fit:contain;
 }
+
